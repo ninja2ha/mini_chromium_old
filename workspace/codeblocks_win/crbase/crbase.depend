@@ -1,0 +1,2113 @@
+# depslib dependency file v1.0
+1752044964 source:f:\code\mini_chromium\src\crbase\logging\logging_internal_win.cc
+	"crbase/logging/logging_internal_win.h"
+	"crbase/win/windows_types.h"
+
+1752044916 f:\code\mini_chromium\src\\crbase\logging\logging_internal_win.h
+	<string>
+	"crbase/logging/logging_base.h"
+
+1752044699 f:\code\mini_chromium\src\\crbase\logging\logging_base.h
+	<stdint.h>
+	"crbase/compiler/build_config.h"
+
+1752556799 f:\code\mini_chromium\src\\crbase\compiler\build_config.h
+
+1753190316 f:\code\mini_chromium\src\\crbase\win\windows_types.h
+	<windows.h>
+
+1752218900 source:f:\code\mini_chromium\src\crbase\strings\pattern.cc
+	"crbase/strings/pattern.h"
+	"crbase/third_party/icu/icu_utf.h"
+
+1752218832 f:\code\mini_chromium\src\\crbase\strings\pattern.h
+	"crbase/base_export.h"
+	"crbase/strings/string_piece.h"
+
+1752044067 f:\code\mini_chromium\src\\crbase\base_export.h
+	"crbase/compiler/build_config.h"
+
+1752324102 f:\code\mini_chromium\src\\crbase\strings\string_piece.h
+	<stddef.h>
+	<iosfwd>
+	<ostream>
+	<string>
+	<algorithm>
+	<type_traits>
+	"crbase/base_export.h"
+	"crbase/logging/logging.h"
+	"crbase/utils/template/template_util.h"
+	"crbase/strings/string_piece_forward.h"
+	"crbase/strings/char_traits.h"
+	"crbase/compiler/build_config.h"
+
+1752065933 f:\code\mini_chromium\src\\crbase\logging\logging.h
+	<stddef.h>
+	<cassert>
+	<cstdint>
+	<cstring>
+	<sstream>
+	<string>
+	<type_traits>
+	<utility>
+	"crbase/base_export.h"
+	"crbase/utils/debug/immediate_crash.h"
+	"crbase/utils/scoped_clear_last_error.h"
+	"crbase/logging/logging_base.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/compiler/build_config.h"
+
+1752072690 f:\code\mini_chromium\src\\crbase\utils\debug\immediate_crash.h
+	"crbase/compiler/build_config.h"
+
+1752045094 f:\code\mini_chromium\src\\crbase\utils\scoped_clear_last_error.h
+	<errno.h>
+	"crbase/base_export.h"
+	"crbase/compiler/build_config.h"
+
+1752048649 f:\code\mini_chromium\src\\crbase\compiler\compiler_specific.h
+	"crbase/compiler/build_config.h"
+
+1752113092 f:\code\mini_chromium\src\\crbase\strings\string_piece_forward.h
+	<iosfwd>
+
+1752114582 f:\code\mini_chromium\src\\crbase\strings\char_traits.h
+	<stddef.h>
+	<string>
+
+1753282096 f:\code\mini_chromium\src\\crbase\third_party\icu\icu_utf.h
+	<stdint.h>
+
+1752199533 source:f:\code\mini_chromium\src\crbase\strings\string_piece.cc
+	"crbase/strings/string_piece.h"
+	<limits.h>
+	<string.h>
+	<algorithm>
+	<ostream>
+	"crbase/strings/utf_string_conversions.h"
+	"crbase/compiler/build_config.h"
+
+1752116136 f:\code\mini_chromium\src\\crbase\strings\utf_string_conversions.h
+	<stddef.h>
+	<string>
+	"crbase/base_export.h"
+	"crbase/strings/string_piece.h"
+	"crbase/compiler/build_config.h"
+
+1752218678 source:f:\code\mini_chromium\src\crbase\strings\string_split.cc
+	"crbase/strings/string_split.h"
+	<stddef.h>
+	"crbase/logging/logging.h"
+	"crbase/strings/string_split_internal.h"
+	"crbase/strings/string_util.h"
+	"crbase/third_party/icu/icu_utf.h"
+
+1752218716 f:\code\mini_chromium\src\\crbase\strings\string_split.h
+	<string>
+	<utility>
+	<vector>
+	"crbase/base_export.h"
+	"crbase/strings/string_piece.h"
+	"crbase/compiler/build_config.h"
+	"crbase/strings/string_split_win.h"
+
+1752218736 f:\code\mini_chromium\src\\crbase\strings\string_split_win.h
+	<string>
+	<vector>
+	"crbase/base_export.h"
+	"crbase/strings/string_piece.h"
+	"crbase/strings/string_split.h"
+	"crbase/compiler/compiler_specific.h"
+
+1752218367 f:\code\mini_chromium\src\\crbase\strings\string_split_internal.h
+	<vector>
+	"crbase/strings/string_piece.h"
+	"crbase/strings/string_util.h"
+
+1753454508 f:\code\mini_chromium\src\\crbase\strings\string_util.h
+	<ctype.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdint.h>
+	<initializer_list>
+	<string>
+	<type_traits>
+	<vector>
+	"crbase/base_export.h"
+	"crbase/containers/span.h"
+	"crbase/stl_util.h"
+	"crbase/strings/string_piece.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/compiler/build_config.h"
+	"crbase/strings/string_util_wis16.h"
+	"crbase/strings/string_util_win.h"
+	"crbase/strings/string_util_posix.h"
+
+1753422033 f:\code\mini_chromium\src\\crbase\utils\template\stl_util.h
+	"crbase/utils/template/class_method_detector.h"
+
+1753234390 f:\code\mini_chromium\src\\crbase\utils\template\class_method_detector.h
+	<type_traits>
+	<utility>
+	"crbase/utils/template/template_util.h"
+
+1752283065 f:\code\mini_chromium\src\\crbase\strings\string_util_wis16.h
+	<string>
+	<vector>
+	<initializer_list>
+	"crbase/base_export.h"
+	"crbase/containers/span.h"
+	"crbase/strings/string_piece.h"
+	"crbase/strings/string_util.h"
+	"crbase/compiler/build_config.h"
+
+1752204124 f:\code\mini_chromium\src\\crbase\strings\string_util_win.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<string.h>
+	<wchar.h>
+	<string>
+	<vector>
+	"crbase/logging/logging.h"
+	"crbase/strings/string_piece.h"
+	"crbase/strings/string_util.h"
+
+1752202329 f:\code\mini_chromium\src\\crbase\strings\string_util_posix.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<string.h>
+	<wchar.h>
+	"crbase/logging/logging.h"
+	"crbase/strings/string_piece.h"
+	"crbase/strings/string_util.h"
+
+1752218612 source:f:\code\mini_chromium\src\crbase\strings\string_split_win.cc
+	"crbase/strings/string_split_win.h"
+	<string>
+	<vector>
+	"crbase/strings/string_piece.h"
+	"crbase/strings/string_split_internal.h"
+
+1753454508 source:f:\code\mini_chromium\src\crbase\strings\string_util.cc
+	"crbase/strings/string_util.h"
+	<ctype.h>
+	<errno.h>
+	<math.h>
+	<stdarg.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<wchar.h>
+	<wctype.h>
+	<algorithm>
+	<limits>
+	<type_traits>
+	<vector>
+	"crbase/logging/logging.h"
+	"crbase/stl_util.h"
+	"crbase/memory/no_destructor.h"
+	"crbase/strings/string_util_internal.h"
+	"crbase/strings/stringprintf.h"
+	"crbase/strings/utf_string_conversion_utils.h"
+	"crbase/third_party/icu/icu_utf.h"
+	"crbase/compiler/build_config.h"
+
+1752045597 f:\code\mini_chromium\src\\crbase\memory\no_destructor.h
+	<new>
+	<utility>
+
+1753454508 f:\code\mini_chromium\src\\crbase\strings\string_util_internal.h
+	<algorithm>
+	"crbase/logging/logging.h"
+	"crbase/stl_util.h"
+	"crbase/strings/string_piece.h"
+	"crbase/third_party/icu/icu_utf.h"
+
+1752127650 f:\code\mini_chromium\src\\crbase\strings\stringprintf.h
+	<stdarg.h>
+	<string>
+	"crbase/base_export.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/compiler/build_config.h"
+
+1752116092 f:\code\mini_chromium\src\\crbase\strings\utf_string_conversion_utils.h
+	<stddef.h>
+	<stdint.h>
+	<string>
+	"crbase/base_export.h"
+
+1752139880 source:f:\code\mini_chromium\src\crbase\strings\string_util_constants.cc
+	"crbase/strings/string_util.h"
+
+1752283090 source:f:\code\mini_chromium\src\crbase\strings\string_util_wis16.cc
+	"crbase/strings/string_util_wis16.h"
+	"crbase/strings/string_util_internal.h"
+	"crbase/compiler/build_config.h"
+
+1753454508 source:f:\code\mini_chromium\src\crbase\strings\stringprintf.cc
+	"crbase/strings/stringprintf.h"
+	<errno.h>
+	<stddef.h>
+	<vector>
+	"crbase/logging/logging.h"
+	"crbase/utils/scoped_clear_last_error.h"
+	"crbase/stl_util.h"
+	"crbase/strings/string_util.h"
+	"crbase/strings/utf_string_conversions.h"
+	"crbase/compiler/build_config.h"
+
+1752116116 source:f:\code\mini_chromium\src\crbase\strings\utf_string_conversion_utils.cc
+	"crbase/strings/utf_string_conversion_utils.h"
+	"crbase/third_party/icu/icu_utf.h"
+	"crbase/compiler/build_config.h"
+
+1752216996 source:f:\code\mini_chromium\src\crbase\strings\utf_string_conversions.cc
+	"crbase/strings/utf_string_conversions.h"
+	<limits.h>
+	<stdint.h>
+	<type_traits>
+	"crbase/strings/string_piece.h"
+	"crbase/strings/string_type_conversions.h"
+	"crbase/strings/string_util.h"
+	"crbase/strings/utf_string_conversion_utils.h"
+	"crbase/third_party/icu/icu_utf.h"
+	"crbase/compiler/build_config.h"
+
+1752118365 f:\code\mini_chromium\src\\crbase\strings\string_type_conversions.h
+	"crbase/strings/string_piece.h"
+	"crbase/compiler/build_config.h"
+
+1752044098 source:f:\code\mini_chromium\src\crbase\utils\debug\alias.cc
+	"crbase/utils/debug/alias.h"
+	"crbase/compiler/compiler_specific.h"
+
+1752044036 f:\code\mini_chromium\src\\crbase\utils\debug\alias.h
+	"crbase/base_export.h"
+
+1752045116 source:f:\code\mini_chromium\src\crbase\utils\scoped_clear_last_error_win.cc
+	"crbase/utils/scoped_clear_last_error.h"
+	"crbase/win/windows_types.h"
+
+1753454508 source:f:\code\mini_chromium\src\crbase\logging\logging.cc
+	"crbase/logging/logging.h"
+	<algorithm>
+	<cstring>
+	<ctime>
+	<iomanip>
+	<ostream>
+	<string>
+	<utility>
+	"crbase/stl_util.h"
+	"crbase/utils/debug/alias.h"
+	"crbase/utils/debug/immediate_crash.h"
+	"crbase/memory/no_destructor.h"
+	"crbase/compiler/build_config.h"
+	<io.h>
+	"crbase/logging/logging_internal_win.h"
+	"crbase/win/windows_types.h"
+	<mach-o/dyld.h>
+	<mach/mach.h>
+	<mach/mach_time.h>
+	"crbase/logging/logging_internal_mac.h"
+	<time.h>
+	<errno.h>
+	<paths.h>
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/stat.h>
+	<sys/time.h>
+	"crbase/logging/logging_internal_posix.h"
+
+1752044824 f:\code\mini_chromium\src\\crbase\logging\logging_internal_mac.h
+	<string>
+	"crbase/logging/logging_base.h"
+
+1752045119 f:\code\mini_chromium\src\\crbase\logging\logging_internal_posix.h
+	<stddef.h>
+	<string>
+	"crbase/base_export.h"
+
+1752482356 f:\code\mini_chromium\src\\crbase\containers\span.h
+	<stddef.h>
+	<stdint.h>
+	<algorithm>
+	<array>
+	<iterator>
+	<type_traits>
+	<initializer_list>
+	<utility>
+
+1753436802 source:f:\code\mini_chromium\src\crbase\main.cc
+	<iostream>
+	<vector>
+	<algorithm>
+	<map>
+	"crbase/logging/logging.h"
+	"crbase/utils/debug/immediate_crash.h"
+	"crbase/utils/template/class_method_detector.h"
+	"crbase/numerics/safe_math.h"
+	"crbase/strings/string_piece.h"
+	"crbase/strings/string_util.h"
+	"crbase/strings/string_number_conversions.h"
+	"crbase/containers/span.h"
+	"crbase/atomic/atomicops.h"
+	"crbase/containers/optional.h"
+	"crbase/functional/callback_list.h"
+	"crbase/functional/cancelable_callback.h"
+	"crbase/files/file_path.h"
+	"crbase/system/cpu_info.h"
+	"crbase/synchronization/lock.h"
+	"crbase/time/time.h"
+	"crbase/files/file_enumerator.h"
+	"crbase/threading/thread_local.h"
+	"crbase/message_loop/message_loop.h"
+	"crbase/message_loop/run_loop.h"
+	"crbase/threading/thread_task_runner_handle.h"
+	"crbase/threading/task/task_runner_util.h"
+	"crbase/timer/timer.h"
+	"crbase/at_exit.h"
+	"crbase/compiler/build_config.h"
+
+1752225875 f:\code\mini_chromium\src\\crbase\numerics\safe_math.h
+	"crbase/numerics/checked_math.h"
+	"crbase/numerics/clamped_math.h"
+	"crbase/numerics/safe_conversions.h"
+
+1752225699 f:\code\mini_chromium\src\\crbase\numerics\checked_math.h
+	<stddef.h>
+	<limits>
+	<type_traits>
+	"crbase/numerics/checked_math_impl.h"
+
+1752239848 f:\code\mini_chromium\src\\crbase\numerics\checked_math_impl.h
+	<stddef.h>
+	<stdint.h>
+	<climits>
+	<cmath>
+	<cstdlib>
+	<limits>
+	<type_traits>
+	"crbase/numerics/safe_conversions.h"
+	"crbase/numerics/safe_math_shared_impl.h"
+
+1752222779 f:\code\mini_chromium\src\\crbase\numerics\safe_conversions.h
+	<stddef.h>
+	<limits>
+	<ostream>
+	<type_traits>
+	<cmath>
+	"crbase/numerics/safe_conversions_impl.h"
+	"crbase/numerics/safe_conversions_arm_impl.h"
+
+1752221460 f:\code\mini_chromium\src\\crbase\numerics\safe_conversions_impl.h
+	<stdint.h>
+	<limits>
+	<type_traits>
+
+1752221021 f:\code\mini_chromium\src\\crbase\numerics\safe_conversions_arm_impl.h
+	<cassert>
+	<limits>
+	<type_traits>
+	"crbase/numerics/safe_conversions_impl.h"
+
+1752225437 f:\code\mini_chromium\src\\crbase\numerics\safe_math_shared_impl.h
+	<stddef.h>
+	<stdint.h>
+	<cassert>
+	<climits>
+	<cmath>
+	<cstdlib>
+	<limits>
+	<type_traits>
+	"crbase/numerics/safe_conversions.h"
+	"crbase/numerics/safe_math_clang_gcc_impl.h"
+
+1752239762 f:\code\mini_chromium\src\\crbase\numerics\safe_math_clang_gcc_impl.h
+	<cassert>
+	<limits>
+	<type_traits>
+	"crbase/numerics/safe_conversions.h"
+	"crbase/numerics/safe_math_arm_impl.h"
+
+1752225566 f:\code\mini_chromium\src\\crbase\numerics\safe_math_arm_impl.h
+	<cassert>
+	<limits>
+	<type_traits>
+	"crbase/numerics/safe_conversions.h"
+
+1752239848 f:\code\mini_chromium\src\\crbase\numerics\clamped_math.h
+	<stddef.h>
+	<limits>
+	<type_traits>
+	"crbase/numerics/clamped_math_impl.h"
+
+1752239837 f:\code\mini_chromium\src\\crbase\numerics\clamped_math_impl.h
+	<stddef.h>
+	<stdint.h>
+	<climits>
+	<cmath>
+	<cstdlib>
+	<limits>
+	<type_traits>
+	"crbase/numerics/checked_math.h"
+	"crbase/numerics/safe_conversions.h"
+	"crbase/numerics/safe_math_shared_impl.h"
+
+1752547269 f:\code\mini_chromium\src\\crbase\strings\string_number_conversions.h
+	<stddef.h>
+	<stdint.h>
+	<string>
+	<vector>
+	"crbase/base_export.h"
+	"crbase/containers/span.h"
+	"crbase/strings/string_piece.h"
+	"crbase/compiler/build_config.h"
+	"crbase/strings/string_number_conversions_win.h"
+
+1752547163 f:\code\mini_chromium\src\\crbase\strings\string_number_conversions_win.h
+	<string>
+	"crbase/base_export.h"
+	"crbase/strings/string_piece.h"
+
+1751450785 source:f:\code\mini_chromium\src\crbase\strings\string_number_conversions.cc
+	"crbase/strings/string_number_conversions.h"
+	<iterator>
+	<string>
+	"crbase/containers/span.h"
+	"crbase/logging/logging.h"
+	"crbase/strings/string_number_conversions_internal.h"
+	"crbase/strings/string_piece.h"
+
+1752284300 f:\code\mini_chromium\src\\crbase\strings\string_number_conversions_internal.h
+	<ctype.h>
+	<errno.h>
+	<stdlib.h>
+	<wctype.h>
+	<limits>
+	"crbase/logging/logging.h"
+	"crbase/memory/no_destructor.h"
+	"crbase/numerics/safe_math.h"
+	"crbase/containers/optional.h"
+	"crbase/strings/string_util.h"
+	"crbase/third_party/double_conversion/double-conversion/double-conversion.h"
+
+1752547269 f:\code\mini_chromium\src\\crbase\containers\optional.h
+	<type_traits>
+	"crbase/logging/logging.h"
+
+1748263329 f:\code\mini_chromium\src\\crbase\third_party\double_conversion\double-conversion\double-conversion.h
+	"string-to-double.h"
+	"double-to-string.h"
+
+1748263329 f:\code\mini_chromium\src\\crbase\third_party\double_conversion\double-conversion\string-to-double.h
+	"utils.h"
+
+1748263329 f:\code\mini_chromium\src\\crbase\third_party\double_conversion\double-conversion\utils.h
+	<cstdlib>
+	<cstring>
+	<cassert>
+	<stdint.h>
+
+1748263329 f:\code\mini_chromium\src\\crbase\third_party\double_conversion\double-conversion\double-to-string.h
+	"utils.h"
+
+1752547177 source:f:\code\mini_chromium\src\crbase\strings\string_number_conversions_win.cc
+	"crbase/strings/string_number_conversions_win.h"
+	<string>
+	"crbase/strings/string_number_conversions_internal.h"
+	"crbase/strings/string_piece.h"
+
+1748263329 source:f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\bignum-dtoa.cc
+	<cmath>
+	"bignum-dtoa.h"
+	"bignum.h"
+	"ieee.h"
+
+1748263329 f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\bignum-dtoa.h
+	"utils.h"
+
+1748263329 f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\utils.h
+	<cstdlib>
+	<cstring>
+	<cassert>
+	<stdint.h>
+
+1748263329 f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\bignum.h
+	"utils.h"
+
+1748263329 f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\ieee.h
+	"diy-fp.h"
+
+1748263329 f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\diy-fp.h
+	"utils.h"
+
+1748263329 source:f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\bignum.cc
+	<algorithm>
+	<cstring>
+	"bignum.h"
+	"utils.h"
+
+1748263329 source:f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\cached-powers.cc
+	<climits>
+	<cmath>
+	<cstdarg>
+	"utils.h"
+	"cached-powers.h"
+
+1748263329 f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\cached-powers.h
+	"diy-fp.h"
+
+1748263329 source:f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\double-to-string.cc
+	<algorithm>
+	<climits>
+	<cmath>
+	"double-to-string.h"
+	"bignum-dtoa.h"
+	"fast-dtoa.h"
+	"fixed-dtoa.h"
+	"ieee.h"
+	"utils.h"
+
+1748263329 f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\double-to-string.h
+	"utils.h"
+
+1748263329 f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\fast-dtoa.h
+	"utils.h"
+
+1748263329 f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\fixed-dtoa.h
+	"utils.h"
+
+1748263329 source:f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\fast-dtoa.cc
+	"fast-dtoa.h"
+	"cached-powers.h"
+	"diy-fp.h"
+	"ieee.h"
+
+1748263329 source:f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\fixed-dtoa.cc
+	<cmath>
+	"fixed-dtoa.h"
+	"ieee.h"
+
+1748263329 source:f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\string-to-double.cc
+	<climits>
+	<locale>
+	<cmath>
+	"string-to-double.h"
+	"ieee.h"
+	"strtod.h"
+	"utils.h"
+
+1748263329 f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\string-to-double.h
+	"utils.h"
+
+1748263329 f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\strtod.h
+	"utils.h"
+
+1748263329 source:f:\code\mini_chromium\src\crbase\third_party\double_conversion\double-conversion\strtod.cc
+	<climits>
+	<cstdarg>
+	"bignum.h"
+	"cached-powers.h"
+	"ieee.h"
+	"strtod.h"
+
+1753433290 f:\code\mini_chromium\src\\crbase\utils\template\template_util.h
+	<type_traits>
+
+1752456156 source:f:\code\mini_chromium\src\crbase\memory\ref_counted.cc
+	"crbase/memory/ref_counted.h"
+
+1752547269 f:\code\mini_chromium\src\\crbase\memory\ref_counted.h
+	<stddef.h>
+	<cassert>
+	<iosfwd>
+	<type_traits>
+	"crbase/base_export.h"
+	"crbase/logging/logging.h"
+	"crbase/atomic/atomic_ref_count.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/compiler/build_config.h"
+
+1752383682 f:\code\mini_chromium\src\\crbase\atomic\atomic_ref_count.h
+	<atomic>
+
+1753255801 source:f:\code\mini_chromium\src\crbase\memory\weak_ptr.cc
+	"crbase/memory/weak_ptr.h"
+
+1753255750 f:\code\mini_chromium\src\\crbase\memory\weak_ptr.h
+	<cstddef>
+	<type_traits>
+	"crbase/base_export.h"
+	"crbase/logging/logging.h"
+	"crbase/memory/ref_counted.h"
+	"crbase/threading/checker/sequence_checker.h"
+
+1752458873 source:f:\code\mini_chromium\src\crbase\functional\bind_helpers.cc
+	"crbase/functional/bind_helpers.h"
+	"crbase/functional/callback.h"
+
+1752547269 f:\code\mini_chromium\src\\crbase\functional\bind_helpers.h
+	<stddef.h>
+	<type_traits>
+	<utility>
+	"crbase/functional/callback.h"
+	"crbase/memory/weak_ptr.h"
+	"crbase/compiler/build_config.h"
+
+1752458689 f:\code\mini_chromium\src\\crbase\functional\callback.h
+	"crbase/functional/callback_forward.h"
+	"crbase/functional/callback_internal.h"
+
+1752458458 f:\code\mini_chromium\src\\crbase\functional\callback_forward.h
+
+1752547269 f:\code\mini_chromium\src\\crbase\functional\callback_internal.h
+	"crbase/base_export.h"
+	"crbase/functional/callback_forward.h"
+	"crbase/memory/ref_counted.h"
+
+1752458605 source:f:\code\mini_chromium\src\crbase\functional\callback_internal.cc
+	"crbase/functional/callback_internal.h"
+	"crbase/logging/logging.h"
+
+1752651627 source:f:\code\mini_chromium\src\crbase\files\file_path.cc
+	"crbase/files/file_path.h"
+	<string.h>
+	<algorithm>
+	"crbase/logging/logging.h"
+	"crbase/strings/strcat.h"
+	"crbase/strings/string_piece.h"
+	"crbase/strings/string_util.h"
+	"crbase/strings//string_type_conversions.h"
+	"crbase/strings/sys_string_conversions.h"
+	"crbase/strings/utf_string_conversions.h"
+	"crbase/compiler/build_config.h"
+	<CoreFoundation/CoreFoundation.h>
+	"crbase/mac/scoped_cftyperef.h"
+	"crbase/third_party/icu/icu_utf.h"
+	"crbase/win/windows_types.h"
+	"crbase/win/win_util.h"
+
+1752547269 f:\code\mini_chromium\src\\crbase\files\file_path.h
+	<stddef.h>
+	<functional>
+	<iosfwd>
+	<string>
+	<vector>
+	"crbase/base_export.h"
+	"crbase/strings/string_piece.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/compiler/build_config.h"
+
+1752547269 f:\code\mini_chromium\src\\crbase\strings\strcat.h
+	<initializer_list>
+	"crbase/base_export.h"
+	"crbase/containers/span.h"
+	"crbase/strings/string_piece.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/compiler/build_config.h"
+	"crbase/strings/strcat_win.h"
+
+1752547269 f:\code\mini_chromium\src\\crbase\strings\strcat_win.h
+	<initializer_list>
+	<string>
+	"crbase/base_export.h"
+	"crbase/containers/span.h"
+	"crbase/strings/string_piece.h"
+	"crbase/compiler/compiler_specific.h"
+
+1752118365 f:\code\mini_chromium\src\\crbase\strings\\string_type_conversions.h
+	"crbase/strings/string_piece.h"
+	"crbase/compiler/build_config.h"
+
+1752483661 f:\code\mini_chromium\src\\crbase\win\win_util.h
+	<stdint.h>
+	"crbase/base_export.h"
+	"crbase/win/windows_types.h"
+
+1752566985 f:\code\mini_chromium\src\\crbase\atomic\atomicops.h
+	<stdint.h>
+	<cstddef>
+	"crbase/base_export.h"
+	"crbase/compiler/build_config.h"
+	"crbase/atomic/atomicops_internals_portable.h"
+	"crbase/atomic/atomicops_internals_atomicword_compat.h"
+
+1752383884 f:\code\mini_chromium\src\\crbase\atomic\atomicops_internals_portable.h
+	<atomic>
+	"crbase/compiler/build_config.h"
+
+1752547269 f:\code\mini_chromium\src\\crbase\functional\callback_list.h
+	<list>
+	<memory>
+	"crbase/logging/logging.h"
+	"crbase/memory/ptr_util.h"
+	"crbase/memory/weak_ptr.h"
+	"crbase/functional/bind.h"
+	"crbase/functional/callback.h"
+	"crbase/compiler/compiler_specific.h"
+
+1752456566 f:\code\mini_chromium\src\\crbase\memory\ptr_util.h
+	<memory>
+	<utility>
+
+1752459489 f:\code\mini_chromium\src\\crbase\functional\bind.h
+	"crbase/functional/bind_internal.h"
+
+1753068032 f:\code\mini_chromium\src\\crbase\functional\bind_internal.h
+	<stddef.h>
+	<tuple>
+	<type_traits>
+	"crbase/utils/template/tuple.h"
+	"crbase/memory/internal/raw_refptr_mismatch_checker.h"
+	"crbase/functional/bind_helpers.h"
+	"crbase/functional/callback_internal.h"
+	"crbase/memory/weak_ptr.h"
+	"crbase/utils/template/template_util.h"
+	"crbase/compiler/build_config.h"
+
+1752547255 f:\code\mini_chromium\src\\crbase\utils\memory\raw_scoped_refptr_mismatch_checker.h
+	<tuple>
+	<type_traits>
+	"crbase/memory/ref_counted.h"
+
+1752459338 f:\code\mini_chromium\src\\crbase\utils\template\tuple.h
+	<stddef.h>
+	<tuple>
+	"crbase/utils/template/tuple.h"
+
+1752547269 f:\code\mini_chromium\src\\crbase\functional\cancelable_callback.h
+	<utility>
+	"crbase/base_export.h"
+	"crbase/logging/logging.h"
+	"crbase/memory/weak_ptr.h"
+	"crbase/functional/bind.h"
+	"crbase/functional/callback.h"
+	"crbase/functional/callback_internal.h"
+	"crbase/compiler/compiler_specific.h"
+
+1752481426 source:f:\code\mini_chromium\src\crbase\strings\strcat.cc
+	"crbase/strings/strcat.h"
+	<string>
+	"crbase/strings/strcat_internal.h"
+
+1752481070 f:\code\mini_chromium\src\\crbase\strings\strcat_internal.h
+	<string>
+	"crbase/containers/span.h"
+
+1752481463 source:f:\code\mini_chromium\src\crbase\strings\strcat_win.cc
+	"crbase/strings/strcat_win.h"
+	<string>
+	"crbase/containers/span.h"
+	"crbase/strings/strcat_internal.h"
+	"crbase/strings/string_piece.h"
+
+1753454508 source:f:\code\mini_chromium\src\crbase\files\file_path_constants.cc
+	<stddef.h>
+	"crbase/files/file_path.h"
+	"crbase/stl_util.h"
+
+1752484088 source:f:\code\mini_chromium\src\crbase\win\win_util.cc
+	"crbase/win/win_util.h"
+
+1752539600 source:f:\code\mini_chromium\src\crbase\files\scoped_file.cc
+	"crbase/files/scoped_file.h"
+	"crbase/logging/logging.h"
+	"crbase/compiler/build_config.h"
+	<errno.h>
+	<unistd.h>
+	"crbase/utils/posix/eintr_wrapper.h"
+
+1752547269 f:\code\mini_chromium\src\\crbase\files\scoped_file.h
+	<stdio.h>
+	<memory>
+	"crbase/base_export.h"
+	"crbase/utils/scoped_generic.h"
+	"crbase/compiler/build_config.h"
+
+1752538870 f:\code\mini_chromium\src\\crbase\utils\scoped_generic.h
+	<stdlib.h>
+	<ostream>
+	<algorithm>
+	<utility>
+	"crbase/logging/logging.h"
+
+1752539590 f:\code\mini_chromium\src\\crbase\utils\posix\eintr_wrapper.h
+	"crbase/compiler/build_config.h"
+	<errno.h>
+
+1751595711 source:f:\code\mini_chromium\src\crbase\strings\sys_string_conversions_win.cc
+	"crbase/strings/sys_string_conversions.h"
+	<stdint.h>
+	"crbase/strings/string_piece.h"
+	"crbase/win/windows_types.h"
+
+1752714797 f:\code\mini_chromium\src\\crbase\strings\sys_string_conversions.h
+	<stdint.h>
+	<string>
+	"crbase/base_export.h"
+	"crbase/strings/string_piece.h"
+	"crbase/compiler/build_config.h"
+	<CoreFoundation/CoreFoundation.h>
+	"crbase/mac/scoped_cftyperef.h"
+
+1753282029 f:\code\mini_chromium\src\\crbase\system\cpu_info.h
+	<cstdint>
+	<string>
+	"crbase/base_export.h"
+	"crbase/compiler/build_config.h"
+
+1752545712 source:f:\code\mini_chromium\src\crbase\system\cpu_info.cc
+	"crbase/system/cpu_info.h"
+	<stdint.h>
+	<string.h>
+	"crbase/memory/no_destructor.h"
+	"crbase/compiler/build_config.h"
+	<asm/hwcap.h>
+	<sys/auxv.h>
+	<immintrin.h>
+	<intrin.h>
+
+1752546799 f:\code\mini_chromium\src\\crbase\mac\scoped_cftyperef.h
+	<CoreFoundation/CoreFoundation.h>
+	"crbase/mac/scoped_typeref.h"
+
+1752567008 f:\code\mini_chromium\src\\crbase\mac\scoped_typeref.h
+	"crbase/logging/logging.h"
+	"crbase/mac/scoped_policy.h"
+	"crbase/compiler/compiler_specific.h"
+
+1752546269 f:\code\mini_chromium\src\\crbase\mac\scoped_policy.h
+
+1753237487 source:f:\code\mini_chromium\src\crbase\synchronization\lock_impl_win.cc
+	"crbase/synchronization/lock_impl.h"
+	"crbase/memory/no_destructor.h"
+	"crbase/win/windows_types.h"
+	"crbase/win/windows_version.h"
+
+1753074819 f:\code\mini_chromium\src\\crbase\synchronization\lock_impl.h
+	"crbase/base_export.h"
+	"crbase/logging/logging.h"
+	"crbase/compiler/build_config.h"
+	"crbase/win/windows_types.h"
+	<errno.h>
+	<pthread.h>
+
+1752547072 f:\code\mini_chromium\src\\crbase\atomic\atomicops_internals_atomicword_compat.h
+	<stdint.h>
+	"crbase/compiler/build_config.h"
+
+1753074799 f:\code\mini_chromium\src\\crbase\synchronization\lock.h
+	"crbase/base_export.h"
+	"crbase/logging/logging.h"
+	"crbase/synchronization/lock_impl.h"
+	"crbase/compiler/build_config.h"
+
+1753454791 f:\code\mini_chromium\src\\crbase\time\time.h
+	<stdint.h>
+	<time.h>
+	<iosfwd>
+	<limits>
+	"crbase/base_export.h"
+	"crbase/logging/logging.h"
+	"crbase/numerics/safe_math.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/compiler/build_config.h"
+	<CoreFoundation/CoreFoundation.h>
+	<unistd.h>
+	<sys/time.h>
+	"crbase/win/windows_types.h"
+
+1752629822 source:f:\code\mini_chromium\src\crbase\time\time.cc
+	"crbase/time/time.h"
+	<cmath>
+	<ios>
+	<limits>
+	<ostream>
+	<sstream>
+	"crbase/memory/no_destructor.h"
+	"crbase/logging/logging.h"
+	"crbase/strings/stringprintf.h"
+	"crbase/third_party/nspr/prtime.h"
+	"crbase/compiler/build_config.h"
+
+1752242105 f:\code\mini_chromium\src\\crbase\third_party\nspr\prtime.h
+	<stdint.h>
+	"crbase/base_export.h"
+
+1753076183 source:f:\code\mini_chromium\src\crbase\time\time_win.cc
+	"crbase/time/time.h"
+	<mmsystem.h>
+	<stdint.h>
+	"crbase/logging/logging.h"
+	"crbase/atomic/atomicops.h"
+	"crbase/bit_cast.h"
+	"crbase/system/cpu_info.h"
+	"crbase/synchronization/lock.h"
+
+1752629952 f:\code\mini_chromium\src\\crbase\bit_cast.h
+	<string.h>
+	<type_traits>
+
+1752633622 source:f:\code\mini_chromium\src\crbase\third_party\nspr\prtime.cc
+	<limits.h>
+	"crbase/logging/logging.h"
+	"crbase/third_party/nspr/prtime.h"
+	"crbase/compiler/build_config.h"
+	<errno.h>
+	<time.h>
+
+1752650573 source:f:\code\mini_chromium\src\crbase\utils\location.cc
+	"crbase/utils/location.h"
+	<intrin.h>
+	"crbase/strings/string_number_conversions.h"
+	"crbase/strings/stringprintf.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/compiler/build_config.h"
+
+1752650540 f:\code\mini_chromium\src\\crbase\utils\location.h
+	<stddef.h>
+	<cassert>
+	<functional>
+	<string>
+	"crbase/base_export.h"
+	"crbase/compiler/build_config.h"
+
+1752710486 f:\code\mini_chromium\src\\crbase\files\file_enumerator.h
+	<stddef.h>
+	<stdint.h>
+	<vector>
+	<stack>
+	"crbase/base_export.h"
+	"crbase/files/file.h"
+	"crbase/files/file_path.h"
+	"crbase/containers/optional.h"
+	"crbase/time/time.h"
+	"crbase/compiler/build_config.h"
+	"crbase/win/windows_types.h"
+	<unistd.h>
+	<unordered_set>
+
+1753072623 f:\code\mini_chromium\src\\crbase\files\file.h
+	<stdint.h>
+	<string>
+	"crbase/base_export.h"
+	"crbase/containers/span.h"
+	"crbase/files/file_path.h"
+	"crbase/files/platform_file.h"
+	"crbase/time/time.h"
+	"crbase/compiler/build_config.h"
+	<sys/stat.h>
+
+1752547269 f:\code\mini_chromium\src\\crbase\files\platform_file.h
+	"crbase/files/scoped_file.h"
+	"crbase/compiler/build_config.h"
+	"crbase/win/scoped_handle.h"
+	"crbase/win/windows_types.h"
+
+1752653498 f:\code\mini_chromium\src\\crbase\win\scoped_handle.h
+	"crbase/base_export.h"
+	"crbase/logging/logging.h"
+	"crbase/utils/location.h"
+	"crbase/win/windows_types.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/compiler/build_config.h"
+	<intrin.h>
+
+1752652127 source:f:\code\mini_chromium\src\crbase\files\file.cc
+	"crbase/files/file.h"
+	<utility>
+	"crbase/logging/logging.h"
+	"crbase/files/file_path.h"
+	"crbase/numerics/safe_conversions.h"
+	"crbase/compiler/build_config.h"
+	<errno.h>
+
+1752652429 source:f:\code\mini_chromium\src\crbase\files\file_enumerator.cc
+	"crbase/files/file_enumerator.h"
+
+1752652786 source:f:\code\mini_chromium\src\crbase\files\file_enumerator_win.cc
+	"crbase/files/file_enumerator.h"
+	<stdint.h>
+	<string.h>
+	<shlwapi.h>
+	"crbase/logging/logging.h"
+	"crbase/strings/string_util.h"
+
+1748263329 source:f:\code\mini_chromium\src\crbase\win\scoped_handle.cc
+	"crbase/win/scoped_handle.h"
+	<windows.h>
+
+1753072620 source:f:\code\mini_chromium\src\crbase\files\file_win.cc
+	"crbase/files/file.h"
+	<io.h>
+	<stdint.h>
+	"crbase/logging/logging.h"
+	"crbase/strings/string_util.h"
+	"crbase/win/windows_types.h"
+
+1752719056 source:f:\code\mini_chromium\src\crbase\threading\thread_local_storage_win.cc
+	"crbase/threading/thread_local_storage.h"
+	"crbase/logging/logging.h"
+	"crbase/win/windows_types.h"
+	"crbase/compiler/build_config.h"
+
+1753253454 f:\code\mini_chromium\src\\crbase\threading\thread_local_storage.h
+	<stdint.h>
+	"crbase/base_export.h"
+	"crbase/atomic/atomicops.h"
+	"crbase/compiler/build_config.h"
+	"crbase/win/windows_types.h"
+	<pthread.h>
+
+1753256398 source:f:\code\mini_chromium\src\crbase\threading\thread_local_storage.cc
+	"crbase/threading/thread_local_storage.h"
+	"crbase/logging/logging.h"
+	"crbase/atomic/atomicops.h"
+	"crbase/memory/no_destructor.h"
+	"crbase/synchronization/lock.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/compiler/build_config.h"
+
+1752714567 f:\code\mini_chromium\src\\crbase\threading\thread_local.h
+	"crbase/threading/thread_local_storage.h"
+
+1752736308 source:f:\code\mini_chromium\src\crbase\threading\platform_thread\platform_thread_win.cc
+	"crbase/threading/platform_thread.h"
+	<stddef.h>
+	"crbase/utils/debug/alias.h"
+	"crbase/logging/logging.h"
+	"crbase/strings/utf_string_conversions.h"
+	"crbase/threading/thread_id_name_manager.h"
+	"crbase/win/scoped_handle.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/compiler/build_config.h"
+
+1753147698 f:\code\mini_chromium\src\\crbase\threading\platform_thread.h
+	<stddef.h>
+	"crbase/base_export.h"
+	"crbase/time/time.h"
+	"crbase/compiler/build_config.h"
+	"crbase/win/windows_types.h"
+	<pthread.h>
+	<unistd.h>
+
+1752729727 f:\code\mini_chromium\src\\crbase\threading\thread_id_name_manager.h
+	<map>
+	<string>
+	"crbase/base_export.h"
+	"crbase/synchronization/lock.h"
+	"crbase/threading/platform_thread.h"
+
+1753065593 source:f:\code\mini_chromium\src\crbase\threading\thread_id_name_manager.cc
+	"crbase/threading/thread_id_name_manager.h"
+	<stdlib.h>
+	<string.h>
+	"crbase/logging/logging.h"
+	"crbase/memory/singleton.h"
+	"crbase/strings/string_util.h"
+
+1752730272 f:\code\mini_chromium\src\\crbase\memory\singleton.h
+	"crbase/base_export.h"
+	"crbase/logging/logging.h"
+	"crbase/at_exit.h"
+	"crbase/atomic/atomicops.h"
+
+1753437087 f:\code\mini_chromium\src\\crbase\at_exit.h
+	<stack>
+	"crbase/base_export.h"
+	"crbase/containers/stack.h"
+	"crbase/functional/callback.h"
+	"crbase/synchronization/lock.h"
+
+1752744059 source:f:\code\mini_chromium\src\crbase\guid.cc
+	"crbase/guid.h"
+	<stddef.h>
+	<stdint.h>
+	<ostream>
+	"crbase/rand_util.h"
+	"crbase/strings/string_util.h"
+	"crbase/strings/stringprintf.h"
+
+1752742584 f:\code\mini_chromium\src\\crbase\guid.h
+	<stdint.h>
+	<iosfwd>
+	<string>
+	"crbase/base_export.h"
+	"crbase/strings/string_piece.h"
+	"crbase/compiler/build_config.h"
+
+1752741961 f:\code\mini_chromium\src\\crbase\rand_util.h
+	<stddef.h>
+	<stdint.h>
+	<algorithm>
+	<string>
+	"crbase/base_export.h"
+	"crbase/compiler/build_config.h"
+
+1752736989 source:f:\code\mini_chromium\src\crbase\memory\lazy_instance.cc
+	"crbase/memory/lazy_instance.h"
+	"crbase/at_exit.h"
+	"crbase/atomic/atomicops.h"
+	"crbase/threading/platform_thread.h"
+
+1753153619 f:\code\mini_chromium\src\\crbase\memory\lazy_instance.h
+	<new>
+	"crbase/logging/logging.h"
+	"crbase/atomic/atomicops.h"
+	"crbase/memory/lazy_instance_helpers.h"
+
+1752730291 source:f:\code\mini_chromium\src\crbase\memory\singleton.cc
+	"crbase/memory/singleton.h"
+	"crbase/threading/platform_thread.h"
+
+1752742487 source:f:\code\mini_chromium\src\crbase\rand_util.cc
+	"crbase/rand_util.h"
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<algorithm>
+	<limits>
+	"crbase/logging/logging.h"
+	"crbase/strings/string_util.h"
+
+1752742717 source:f:\code\mini_chromium\src\crbase\rand_util_win.cc
+	"crbase/rand_util.h"
+	<stddef.h>
+	<stdint.h>
+	<algorithm>
+	<limits>
+	"crbase/logging/logging.h"
+	"crbase/win/windows_types.h"
+	<NTSecAPI.h>
+
+1753422945 source:f:\code\mini_chromium\src\crbase\files\file_util.cc
+	"crbase/files/file_util.h"
+	<io.h>
+	<stdio.h>
+	<fstream>
+	<limits>
+	<memory>
+	"crbase/logging/logging.h"
+	"crbase/functional/callback.h"
+	"crbase/functional/bind.h"
+	"crbase/files/file_enumerator.h"
+	"crbase/files/file_path.h"
+	"crbase/utils/posix/eintr_wrapper.h"
+	"crbase/strings/string_piece.h"
+	"crbase/strings/string_util.h"
+	"crbase/strings/stringprintf.h"
+	"crbase/strings/utf_string_conversions.h"
+	"crbase/compiler/build_config.h"
+
+1753452503 f:\code\mini_chromium\src\\crbase\files\file_util.h
+	<stddef.h>
+	<stdint.h>
+	<stdio.h>
+	<limits>
+	<set>
+	<string>
+	<vector>
+	"crbase/base_export.h"
+	"crbase/functional/callback_forward.h"
+	"crbase/containers/span.h"
+	"crbase/files/file.h"
+	"crbase/files/file_path.h"
+	"crbase/files/scoped_file.h"
+	"crbase/compiler/build_config.h"
+	"crbase/win/windows_types.h"
+	<sys/stat.h>
+	<unistd.h>
+	"crbase/files/posix/file_descriptor.h"
+	"crbase/utils/posix/eintr_wrapper.h"
+
+1752737471 f:\code\mini_chromium\src\\crbase\utils\posix\file_descriptor_posix.h
+	"crbase/files/file.h"
+	"crbase/files/scoped_file.h"
+
+1753454508 source:f:\code\mini_chromium\src\crbase\files\file_util_win.cc
+	"crbase/files/file_util.h"
+	<windows.h>
+	<io.h>
+	<psapi.h>
+	<shellapi.h>
+	<shlobj.h>
+	<stddef.h>
+	<stdint.h>
+	<time.h>
+	<algorithm>
+	<limits>
+	<string>
+	"crbase/win/windows_types.h"
+	"crbase/logging/logging.h"
+	"crbase/utils/debug/alias.h"
+	"crbase/files/file_enumerator.h"
+	"crbase/files/file_path.h"
+	"crbase/files/memory_mapped_file.h"
+	"crbase/guid.h"
+	"crbase/rand_util.h"
+	"crbase/numerics/safe_conversions.h"
+	"crbase/stl_util.h"
+	"crbase/strings/strcat.h"
+	"crbase/strings/string_number_conversions.h"
+	"crbase/strings/string_piece.h"
+	"crbase/strings/string_util.h"
+	"crbase/strings/string_type_conversions.h"
+	"crbase/strings/string_util_win.h"
+	"crbase/strings/utf_string_conversions.h"
+	"crbase/time/time.h"
+	"crbase/win/scoped_handle.h"
+	"crbase/win/windows_version.h"
+
+1753451365 source:f:\code\mini_chromium\src\crbase\at_exit.cc
+	"crbase/at_exit.h"
+	<stddef.h>
+	<ostream>
+	<utility>
+	"crbase/logging/logging.h"
+	"crbase/functional/bind.h"
+	"crbase/functional/callback.h"
+
+1752805093 source:f:\code\mini_chromium\src\crbase\files\memory_mapped_file.cc
+	"crbase/files/memory_mapped_file.h"
+	<utility>
+	"crbase/logging/logging.h"
+	"crbase/files/file_path.h"
+	"crbase/numerics/safe_math.h"
+	"crbase/compiler/build_config.h"
+	"crbase/win/windows_types.h"
+	<unistd.h>
+
+1752761301 f:\code\mini_chromium\src\\crbase\files\memory_mapped_file.h
+	<stddef.h>
+	<stdint.h>
+	<utility>
+	"crbase/base_export.h"
+	"crbase/files/file.h"
+	"crbase/compiler/build_config.h"
+	"crbase/win/windows_types.h"
+
+1752762408 source:f:\code\mini_chromium\src\crbase\files\memory_mapped_file_win.cc
+	"crbase/files/memory_mapped_file.h"
+	<stddef.h>
+	<stdint.h>
+	<limits>
+	<string>
+	"crbase/logging/logging.h"
+	"crbase/files/file_path.h"
+	<windows.h>
+	<winnt.h>
+
+1753454508 source:f:\code\mini_chromium\src\crbase\win\registry.cc
+	"crbase/win/registry.h"
+	<stddef.h>
+	<algorithm>
+	<memory>
+	<string>
+	<utility>
+	<vector>
+	"crbase/logging/logging.h"
+	"crbase/stl_util.h"
+	"crbase/functional/callback.h"
+	"crbase/strings/string_util.h"
+	"crbase/strings/string_util_win.h"
+
+1751595308 f:\code\mini_chromium\src\\crbase\win\registry.h
+	<stdint.h>
+	<memory>
+	<string>
+	<vector>
+	"crbase/base_export.h"
+	"crbase/functional/callback_forward.h"
+	"crbase/win/windows_types.h"
+
+1752803818 source:f:\code\mini_chromium\src\crbase\win\resource_util.cc
+	"crbase/win/resource_util.h"
+	"crbase/logging/logging.h"
+
+1752803810 f:\code\mini_chromium\src\\crbase\win\resource_util.h
+	<stddef.h>
+	"crbase/base_export.h"
+	"crbase/win/windows_types.h"
+
+1753067837 source:f:\code\mini_chromium\src\crbase\win\windows_version.cc
+	"crbase/win/windows_version.h"
+	<memory>
+	<map>
+	"crbase/logging/logging.h"
+	"crbase/strings/utf_string_conversions.h"
+	"crbase/version/pe_file_version_info.h"
+	"crbase/files/file_path.h"
+	"crbase/win/registry.h"
+	"crbase/win/windows_types.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/compiler/build_config.h"
+
+1753067825 f:\code\mini_chromium\src\\crbase\win\windows_version.h
+	<stddef.h>
+	<string>
+	"crbase/base_export.h"
+	"crbase/version/version.h"
+
+1748263329 f:\code\mini_chromium\src\\crbase\version.h
+	<stdint.h>
+	<iosfwd>
+	<string>
+	<vector>
+	"crbase/base_export.h"
+	"crbase/strings/string_piece.h"
+
+1752805899 f:\code\mini_chromium\src\\crbase\files\file_version_info.h
+	<memory>
+	<string>
+	"crbase/base_export.h"
+	"crbase/compiler/build_config.h"
+	"crbase/win/windows_types.h"
+
+1752806124 source:f:\code\mini_chromium\src\crbase\files\file_version_info_win.cc
+	"crbase/files/file_version_info_win.h"
+	<stddef.h>
+	<utility>
+	"crbase/logging/logging.h"
+	"crbase/utils/template/stl_util.h"
+	"crbase/files/file_path.h"
+	"crbase/memory/ptr_util.h"
+	"crbase/strings/string_util.h"
+	"crbase/strings/string_type_conversions.h"
+	"crbase/win/resource_util.h"
+
+1752804139 f:\code\mini_chromium\src\\crbase\files\file_version_info_win.h
+	<stdint.h>
+	<memory>
+	<string>
+	<vector>
+	"crbase/base_export.h"
+	"crbase/version.h"
+	"crbase/files/file_version_info.h"
+	"crbase/win/win_util.h"
+
+1753067998 f:\code\mini_chromium\src\\crbase\memory\internal\raw_refptr_mismatch_checker.h
+	<tuple>
+	<type_traits>
+	"crbase/memory/ref_counted.h"
+
+1753454508 source:f:\code\mini_chromium\src\crbase\version\pe_file_version_info_win.cc
+	"crbase/version/pe_file_version_info_win.h"
+	<stddef.h>
+	<utility>
+	"crbase/logging/logging.h"
+	"crbase/stl_util.h"
+	"crbase/files/file_path.h"
+	"crbase/memory/ptr_util.h"
+	"crbase/strings/string_util.h"
+	"crbase/strings/string_type_conversions.h"
+	"crbase/win/resource_util.h"
+
+1753067617 f:\code\mini_chromium\src\\crbase\version\pe_file_version_info_win.h
+	<stdint.h>
+	<memory>
+	<string>
+	<vector>
+	"crbase/base_export.h"
+	"crbase/version/version.h"
+	"crbase/version/pe_file_version_info.h"
+	"crbase/win/win_util.h"
+
+1753067057 f:\code\mini_chromium\src\\crbase\version\version.h
+	<stdint.h>
+	<iosfwd>
+	<string>
+	<vector>
+	"crbase/base_export.h"
+	"crbase/strings/string_piece.h"
+
+1753067593 f:\code\mini_chromium\src\\crbase\version\pe_file_version_info.h
+	<memory>
+	<string>
+	"crbase/base_export.h"
+	"crbase/compiler/build_config.h"
+	"crbase/win/windows_types.h"
+
+1753067064 source:f:\code\mini_chromium\src\crbase\version\version.cc
+	"crbase/version/version.h"
+	<stddef.h>
+	<algorithm>
+	"crbase/logging/logging.h"
+	"crbase/strings/string_number_conversions.h"
+	"crbase/strings/string_split.h"
+	"crbase/strings/string_util.h"
+	"crbase/strings/utf_string_conversions.h"
+
+1753147882 source:f:\code\mini_chromium\src\crbase\threading\platform_thread_win.cc
+	"crbase/threading/platform_thread.h"
+	<stddef.h>
+	"crbase/logging/logging.h"
+	"crbase/utils/debug/alias.h"
+	"crbase/threading/thread_id_name_manager.h"
+	"crbase/win/scoped_handle.h"
+
+1753436104 f:\code\mini_chromium\src\\crbase\message_loop\run_loop.h
+	<utility>
+	<vector>
+	"crbase/base_export.h"
+	"crbase/functional/callback.h"
+	"crbase/containers/stack.h"
+	"crbase/memory/ref_counted.h"
+	"crbase/memory/weak_ptr.h"
+	"crbase/observer_list.h"
+	"crbase/threading/checker/sequence_checker.h"
+	"crbase/threading/checker/thread_checker.h"
+	"crbase/compiler/build_config.h"
+
+1753434110 f:\code\mini_chromium\src\\crbase\message_loop\message_loop.h
+	<memory>
+	<queue>
+	<string>
+	"crbase/base_export.h"
+	"crbase/utils/pending_task.h"
+	"crbase/synchronization/lock.h"
+	"crbase/functional/callback_forward.h"
+	"crbase/observer_list.h"
+	"crbase/memory/ref_counted.h"
+	"crbase/message_loop/message_loop_current.h"
+	"crbase/message_loop/message_pump.h"
+	"crbase/message_loop/pending_task_queue.h"
+	"crbase/message_loop/timer_slack.h"
+	"crbase/message_loop/run_loop.h"
+	"crbase/threading/internal/sequence_local_storage_map.h"
+	"crbase/threading/checker/thread_checker.h"
+	"crbase/time/time.h"
+	"crbase/compiler/build_config.h"
+
+1753454508 f:\code\mini_chromium\src\\crbase\observer_list.h
+	<stddef.h>
+	<algorithm>
+	<limits>
+	<vector>
+	"crbase/logging/logging.h"
+	"crbase/memory/weak_ptr.h"
+	"crbase/stl_util.h"
+
+1753235493 f:\code\mini_chromium\src\\crbase\message_loop\incoming_task_queue.h
+	"crbase/base_export.h"
+	"crbase/functional/callback.h"
+	"crbase/memory/ref_counted.h"
+	"crbase/utils/pending_task.h"
+	"crbase/synchronization/lock.h"
+	"crbase/time/time.h"
+
+1753430314 f:\code\mini_chromium\src\\crbase\utils\pending_task.h
+	<array>
+	<queue>
+	"crbase/base_export.h"
+	"crbase/functional/callback.h"
+	"crbase/utils/location.h"
+	"crbase/containers/optional.h"
+	"crbase/time/time.h"
+
+1753431524 f:\code\mini_chromium\src\\crbase\message_loop\message_loop_task_runner.h
+	"crbase/base_export.h"
+	"crbase/atomic/atomicops.h"
+	"crbase/functional/callback.h"
+	"crbase/memory/ref_counted.h"
+	"crbase/message_loop/sequenced_task_source.h"
+	"crbase/utils/pending_task.h"
+	"crbase/threading/task/single_thread_task_runner.h"
+	"crbase/synchronization/lock.h"
+	"crbase/threading/platform_thread.h"
+	"crbase/time/time.h"
+
+1753251680 f:\code\mini_chromium\src\\crbase\threading\task\single_thread_task_runner.h
+	"crbase/base_export.h"
+	"crbase/threading/task/sequenced_task_runner.h"
+
+1753252147 f:\code\mini_chromium\src\\crbase\threading\task\sequenced_task_runner.h
+	<memory>
+	"crbase/base_export.h"
+	"crbase/functional/callback.h"
+	"crbase/threading/task/sequenced_task_runner_helpers.h"
+	"crbase/threading/task/task_runner.h"
+
+1753252389 f:\code\mini_chromium\src\\crbase\threading\task\sequenced_task_runner_helpers.h
+
+1753251238 f:\code\mini_chromium\src\\crbase\threading\task\task_runner.h
+	<stddef.h>
+	"crbase/base_export.h"
+	"crbase/functional/callback_forward.h"
+	"crbase/utils/location.h"
+	"crbase/memory/ref_counted.h"
+	"crbase/time/time.h"
+
+1753433192 f:\code\mini_chromium\src\\crbase\message_loop\message_pump.h
+	"crbase/base_export.h"
+	"crbase/threading/checker/thread_checker.h"
+	"crbase/message_loop/timer_slack.h"
+
+1753189123 f:\code\mini_chromium\src\\crbase\message_loop\timer_slack.h
+
+1753255218 f:\code\mini_chromium\src\\crbase\message_loop\message_pump_win.h
+	<windows.h>
+	<list>
+	<memory>
+	"crbase/base_export.h"
+	"crbase/message_loop/message_pump.h"
+	"crbase/time/time.h"
+	"crbase/win/message_window.h"
+	"crbase/win/scoped_handle.h"
+
+1753153479 f:\code\mini_chromium\src\\crbase\threading\thread_task_runner_handle.h
+	"crbase/base_export.h"
+	"crbase/memory/ref_counted.h"
+	"crbase/threading/task/single_thread_task_runner.h"
+
+1753251621 f:\code\mini_chromium\src\\crbase\threading\task\task_runner_util.h
+	"crbase/logging/logging.h"
+	"crbase/functional/bind.h"
+	"crbase/functional/bind_helpers.h"
+	"crbase/threading/task/task_runner.h"
+
+1753235484 source:f:\code\mini_chromium\src\crbase\message_loop\incoming_task_queue.cc
+	"crbase/message_loop/incoming_task_queue.h"
+	<limits>
+	"crbase/utils/location.h"
+	"crbase/message_loop/message_loop.h"
+	"crbase/synchronization/waitable_event.h"
+	"crbase/time/time.h"
+
+1753083895 f:\code\mini_chromium\src\\crbase\synchronization\waitable_event.h
+	<stddef.h>
+	"crbase/base_export.h"
+	"crbase/compiler/build_config.h"
+	"crbase/win/scoped_handle.h"
+	<list>
+	<utility>
+	"crbase/memory/ref_counted.h"
+	"crbase/synchronization/lock.h"
+
+1753436950 source:f:\code\mini_chromium\src\crbase\message_loop\message_loop.cc
+	"crbase/message_loop/message_loop.h"
+	<algorithm>
+	<utility>
+	"crbase/logging/logging.h"
+	"crbase/functional/bind.h"
+	"crbase/functional/callback_helpers.h"
+	"crbase/memory/ptr_util.h"
+	"crbase/message_loop/message_loop_task_runner.h"
+	"crbase/message_loop/message_pump_default.h"
+	"crbase/message_loop/message_pump_for_io.h"
+	"crbase/message_loop/message_pump_for_ui.h"
+	"crbase/message_loop/sequenced_task_source.h"
+	"crbase/message_loop/run_loop.h"
+	"crbase/threading/thread_id_name_manager.h"
+	"crbase/threading/thread_task_runner_handle.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/message_loop/message_pump_mac.h"
+
+1751609554 f:\code\mini_chromium\src\\crbase\memory\lazy_instance_helpers.h
+	"crbase/base_export.h"
+	"crbase/atomic/atomicops.h"
+	"crbase/logging/logging.h"
+
+1753192231 f:\code\mini_chromium\src\\crbase\message_loop\message_pump_default.h
+	"crbase/base_export.h"
+	"crbase/message_loop/message_pump.h"
+	"crbase/synchronization/waitable_event.h"
+	"crbase/time/time.h"
+
+1753431638 source:f:\code\mini_chromium\src\crbase\message_loop\message_loop_task_runner.cc
+	"crbase/message_loop/message_loop_task_runner.h"
+	<utility>
+	"crbase/logging/logging.h"
+	"crbase/utils/location.h"
+	"crbase/compiler/build_config.h"
+
+1753255308 source:f:\code\mini_chromium\src\crbase\message_loop\message_pump.cc
+	"crbase/message_loop/message_pump.h"
+
+1753193512 source:f:\code\mini_chromium\src\crbase\message_loop\message_pump_default.cc
+	"crbase/message_loop/message_pump_default.h"
+	"crbase/logging/logging.h"
+	"crbase/compiler/build_config.h"
+	"crbase/mac/scoped_nsautorelease_pool.h"
+
+1753157407 f:\code\mini_chromium\src\\crbase\mac\scoped_nsautorelease_pool.h
+	"crbase/base_export.h"
+
+1753436099 source:f:\code\mini_chromium\src\crbase\message_loop\run_loop.cc
+	"crbase/message_loop/run_loop.h"
+	"crbase/functional/bind.h"
+	"crbase/functional/callback.h"
+	"crbase/memory/lazy_instance.h"
+	"crbase/message_loop/message_loop.h"
+	"crbase/threading/task/single_thread_task_runner.h"
+	"crbase/threading/thread_local.h"
+	"crbase/threading/thread_task_runner_handle.h"
+	"crbase/compiler/build_config.h"
+
+1753153370 source:f:\code\mini_chromium\src\crbase\threading\simple_thread.cc
+	"crbase/threading/simple_thread.h"
+	"crbase/logging/logging.h"
+	"crbase/strings/string_number_conversions.h"
+	"crbase/threading/platform_thread.h"
+
+1753153317 f:\code\mini_chromium\src\\crbase\threading\simple_thread.h
+	<stddef.h>
+	<queue>
+	<string>
+	<vector>
+	"crbase/base_export.h"
+	"crbase/synchronization/lock.h"
+	"crbase/synchronization/waitable_event.h"
+	"crbase/threading/platform_thread.h"
+	"crbase/compiler/compiler_specific.h"
+
+1753255877 source:f:\code\mini_chromium\src\crbase\threading\task\post_task_and_reply_impl.cc
+	"crbase/threading/task/post_task_and_reply_impl.h"
+	"crbase/logging/logging.h"
+	"crbase/functional/bind.h"
+	"crbase/functional/callback.h"
+	"crbase/memory/ref_counted.h"
+	"crbase/threading/checker/sequence_checker.h"
+	"crbase/threading/task/sequenced_task_runner.h"
+	"crbase/threading/task/sequenced_task_runner_handle.h"
+
+1753151928 f:\code\mini_chromium\src\\crbase\threading\task\post_task_and_reply_impl.h
+	"crbase/base_export.h"
+	"crbase/functional/callback_forward.h"
+	"crbase/utils/location.h"
+
+1753282214 f:\code\mini_chromium\src\\crbase\threading\task\sequenced_task_runner_handle.h
+	"crbase/base_export.h"
+	"crbase/memory/ref_counted.h"
+	"crbase/threading/task/sequenced_task_runner.h"
+	"crbase/compiler/compiler_specific.h"
+
+1753251397 source:f:\code\mini_chromium\src\crbase\threading\task\sequenced_task_runner.cc
+	"crbase/threading/task/sequenced_task_runner.h"
+	<utility>
+	"crbase/logging/logging.h"
+	"crbase/functional/bind.h"
+
+1753282189 source:f:\code\mini_chromium\src\crbase\threading\task\sequenced_task_runner_handle.cc
+	"crbase/threading/task/sequenced_task_runner_handle.h"
+	<utility>
+	"crbase/logging/logging.h"
+	"crbase/memory/lazy_instance.h"
+	"crbase/threading/task/sequenced_worker_pool.h"
+	"crbase/threading/thread_local.h"
+	"crbase/threading/thread_task_runner_handle.h"
+
+1753252274 f:\code\mini_chromium\src\\crbase\threading\task\sequenced_worker_pool.h
+	<stddef.h>
+	<cstddef>
+	<memory>
+	<string>
+	"crbase/base_export.h"
+	"crbase/utils/location.h"
+	"crbase/functional/callback_forward.h"
+	"crbase/memory/ref_counted.h"
+	"crbase/threading/task/single_thread_task_runner.h"
+	"crbase/threading/task/task_runner.h"
+
+1753454508 source:f:\code\mini_chromium\src\crbase\threading\task\sequenced_worker_pool.cc
+	"crbase/threading/task/sequenced_worker_pool.h"
+	<stdint.h>
+	<list>
+	<map>
+	<memory>
+	<set>
+	<utility>
+	<vector>
+	"crbase/atomic/atomic_sequence_num.h"
+	"crbase/functional/callback.h"
+	"crbase/functional/critical_closure.h"
+	"crbase/memory/lazy_instance.h"
+	"crbase/logging/logging.h"
+	"crbase/memory/ptr_util.h"
+	"crbase/stl_util.h"
+	"crbase/strings/stringprintf.h"
+	"crbase/synchronization/condition_variable.h"
+	"crbase/synchronization/lock.h"
+	"crbase/threading/platform_thread.h"
+	"crbase/threading/simple_thread.h"
+	"crbase/threading/thread_local.h"
+	"crbase/threading/thread_task_runner_handle.h"
+	"crbase/time/time.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/compiler/build_config.h"
+	"base/mac/scoped_nsautorelease_pool.h"
+	"crbase/win/com/scoped_com_initializer.h"
+
+1753237270 f:\code\mini_chromium\src\\crbase\atomic\atomic_sequence_num.h
+	<atomic>
+
+1753156915 f:\code\mini_chromium\src\\crbase\functional\critical_closure.h
+	<utility>
+	"crbase/functional/callback.h"
+
+1753075199 f:\code\mini_chromium\src\\crbase\synchronization\condition_variable.h
+	"crbase/base_export.h"
+	"crbase/logging/logging.h"
+	"crbase/synchronization/lock.h"
+	"crbase/compiler/build_config.h"
+	<pthread.h>
+
+1753157077 f:\code\mini_chromium\src\\crbase\win\com\scoped_com_initializer.h
+	<objbase.h>
+	"crbase/logging/logging.h"
+	"crbase/compiler/build_config.h"
+
+1753150703 source:f:\code\mini_chromium\src\crbase\threading\task\task_runner.cc
+	"crbase/threading/task/task_runner.h"
+	<utility>
+	"crbase/logging/logging.h"
+	"crbase/functional/bind.h"
+	"crbase/threading/task/post_task_and_reply_impl.h"
+	"crbase/compiler/compiler_specific.h"
+
+1753255230 source:f:\code\mini_chromium\src\crbase\message_loop\message_pump_win.cc
+	"crbase/message_loop/message_pump_win.h"
+	<math.h>
+	<stdint.h>
+	<limits>
+	"crbase/functional/callback.h"
+	"crbase/functional/bind.h"
+	"crbase/message_loop/message_loop.h"
+	"crbase/strings/stringprintf.h"
+	"crbase/win/current_module.h"
+	"crbase/win/wrapped_window_proc.h"
+
+1753190226 f:\code\mini_chromium\src\\crbase\win\current_module.h
+	<windows.h>
+
+1753242232 f:\code\mini_chromium\src\\crbase\win\wrapped_window_proc.h
+	<string>
+	"crbase/base_export.h"
+	"crbase/win/windows_types.h"
+
+1753242205 source:f:\code\mini_chromium\src\crbase\win\wrapped_window_proc.cc
+	"crbase/win/wrapped_window_proc.h"
+	"crbase/atomic/atomicops.h"
+	"crbase/logging/logging.h"
+	"crbase/strings/string_util.h"
+	"crbase/compiler/build_config.h"
+
+1753241645 source:f:\code\mini_chromium\src\crbase\win\message_window.cc
+	"crbase/win/message_window.h"
+	"crbase/logging/logging.h"
+	"crbase/strings/string_type_conversions.h"
+	"crbase/memory/lazy_instance.h"
+	"crbase/win/current_module.h"
+	"crbase/win/wrapped_window_proc.h"
+	"crbase/win/win_util.h"
+
+1753189931 f:\code\mini_chromium\src\\crbase\win\message_window.h
+	<string>
+	"crbase/base_export.h"
+	"crbase/functional/callback.h"
+	"crbase/strings/string_piece.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/win/windows_types.h"
+
+1753153660 source:f:\code\mini_chromium\src\crbase\threading\thread_task_runner_handle.cc
+	"crbase/threading/thread_task_runner_handle.h"
+	<utility>
+	"crbase/logging/logging.h"
+	"crbase/memory/lazy_instance.h"
+	"crbase/threading/thread_local.h"
+	"crbase/threading/task/sequenced_task_runner_handle.h"
+
+1753430337 source:f:\code\mini_chromium\src\crbase\utils\pending_task.cc
+	"crbase/utils/pending_task.h"
+
+1751609615 source:f:\code\mini_chromium\src\crbase\memory\lazy_instance_helpers.cc
+	"crbase/memory/lazy_instance_helpers.h"
+	"crbase/at_exit.h"
+	"crbase/atomic/atomicops.h"
+	"crbase/threading/platform_thread.h"
+
+1753256024 source:f:\code\mini_chromium\src\crbase\synchronization\atomic_flag.cc
+	"crbase/synchronization/atomic_flag.h"
+	"crbase/logging/logging.h"
+
+1753255998 f:\code\mini_chromium\src\\crbase\synchronization\atomic_flag.h
+	"crbase/base_export.h"
+	"crbase/atomic/atomicops.h"
+	"crbase/threading/checker/sequence_checker.h"
+
+1753074923 source:f:\code\mini_chromium\src\crbase\synchronization\condition_variable_win.cc
+	"crbase/synchronization/condition_variable.h"
+	<stack>
+	"crbase/synchronization/lock.h"
+	"crbase/time/time.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/win/windows_types.h"
+
+1753083184 source:f:\code\mini_chromium\src\crbase\synchronization\waitable_event_win.cc
+	"crbase/synchronization/waitable_event.h"
+	<stddef.h>
+	<algorithm>
+	<utility>
+	"crbase/logging/logging.h"
+	"crbase/numerics/safe_conversions.h"
+	"crbase/time/time.h"
+	"crbase/win/windows_types.h"
+
+1753252803 f:\code\mini_chromium\src\\crbase\threading\checker\sequence_checker.h
+	"crbase/logging/logging.h"
+	"crbase/strings/string_piece.h"
+	"crbase/threading/checker/sequence_checker_impl.h"
+	"crbase/compiler/compiler_specific.h"
+	"crbase/compiler/build_config.h"
+
+1753252823 f:\code\mini_chromium\src\\crbase\threading\checker\sequence_checker_impl.h
+	<memory>
+	"crbase/base_export.h"
+	"crbase/synchronization/lock.h"
+	"crbase/compiler/compiler_specific.h"
+
+1753255434 f:\code\mini_chromium\src\\crbase\threading\checker\thread_checker.h
+	"crbase/logging/logging.h"
+	"crbase/strings/string_piece.h"
+	"crbase/threading/checker/thread_checker_impl.h"
+	"crbase/compiler/compiler_specific.h"
+
+1753253026 f:\code\mini_chromium\src\\crbase\threading\checker\thread_checker_impl.h
+	"crbase/base_export.h"
+	"crbase/synchronization/lock.h"
+	"crbase/threading/checker/sequence_token.h"
+	"crbase/threading/platform_thread.h"
+	"crbase/compiler/compiler_specific.h"
+
+1753252650 f:\code\mini_chromium\src\\crbase\threading\checker\sequence_token.h
+	"crbase/base_export.h"
+
+1753252670 source:f:\code\mini_chromium\src\crbase\threading\checker\sequence_token.cc
+	"crbase/threading/checker/sequence_token.h"
+	"crbase/atomic/atomic_sequence_num.h"
+	"crbase/logging/logging.h"
+	"crbase/memory/no_destructor.h"
+	"crbase/threading/thread_local.h"
+
+1753253049 source:f:\code\mini_chromium\src\crbase\threading\checker\thread_checker_impl.cc
+	"crbase/threading/checker/thread_checker_impl.h"
+	"crbase/logging/logging.h"
+	"crbase/threading/thread_local.h"
+	"crbase/threading/thread_task_runner_handle.h"
+
+1753256248 source:f:\code\mini_chromium\src\crbase\threading\checker\sequence_checker_impl.cc
+	"crbase/threading/checker/sequence_checker_impl.h"
+	<memory>
+	"crbase/logging/logging.h"
+	"crbase/memory/ptr_util.h"
+	"crbase/threading/checker/sequence_token.h"
+	"crbase/threading/checker/thread_checker_impl.h"
+	"crbase/threading/thread_local_storage.h"
+
+1753253932 f:\code\mini_chromium\src\\crbase\timer\timer.h
+	<memory>
+	"crbase/base_export.h"
+	"crbase/functional/bind.h"
+	"crbase/functional/bind_helpers.h"
+	"crbase/functional/callback.h"
+	"crbase/utils/location.h"
+	"crbase/threading/checker/sequence_checker.h"
+	"crbase/threading/task/sequenced_task_runner.h"
+	"crbase/time/time.h"
+
+1753250452 source:f:\code\mini_chromium\src\crbase\timer\elapsed_timer.cc
+	"crbase/timer/elapsed_timer.h"
+
+1753250442 f:\code\mini_chromium\src\\crbase\timer\elapsed_timer.h
+	"crbase/base_export.h"
+	"crbase/time/time.h"
+
+1753253900 source:f:\code\mini_chromium\src\crbase\timer\timer.cc
+	"crbase/timer/timer.h"
+	<stddef.h>
+	<utility>
+	"crbase/logging/logging.h"
+	"crbase/memory/ptr_util.h"
+	"crbase/memory/ref_counted.h"
+	"crbase/threading/platform_thread.h"
+	"crbase/threading/task/sequenced_task_runner_handle.h"
+	"crbase/time/tick_clock.h"
+
+1753250576 f:\code\mini_chromium\src\\crbase\time\tick_clock.h
+	"crbase/base_export.h"
+	"crbase/time/time.h"
+
+1753412107 f:\code\mini_chromium\src\\crbase\message_loop\win\message_pump_win.h
+	<list>
+	<memory>
+	"crbase/base_export.h"
+	"crbase/observer_list.h"
+	"crbase/message_loop/message_pump.h"
+	"crbase/time/time.h"
+	"crbase/win/windows_types.h"
+	"crbase/win/message_window.h"
+	"crbase/win/scoped_handle.h"
+
+1753412355 f:\code\mini_chromium\src\\crbase\message_loop\posix\message_pump_libevent.h
+	<memory>
+	"crbase/base_export.h"
+	"crbase/message_loop/message_pump.h"
+	"crbase/message_loop/posix/watchable_io_message_pump.h"
+	"crbase/time/time.h"
+	"crbase/threading/checker/thread_checker.h"
+	"crbase/compiler/compiler_specific.h"
+
+1753412162 f:\code\mini_chromium\src\\crbase\message_loop\posix\watchable_io_message_pump.h
+	"crbase/utils/location.h"
+
+1753413530 f:\code\mini_chromium\src\\crbase\files\file_descriptor_posix.h
+	"crbase/files/file.h"
+	"crbase/files/scoped_file.h"
+
+1753423128 source:f:\code\mini_chromium\src\crbase\environment.cc
+	"crbase/environment.h"
+	"crbase/memory/ptr_util.h"
+	"crbase/strings/string_piece.h"
+	"crbase/strings/string_util.h"
+	"crbase/strings/utf_string_conversions.h"
+	"crbase/compiler/build_config.h"
+	"crbase/win/windows_types.h"
+	<stdlib.h>
+
+1752763408 f:\code\mini_chromium\src\\crbase\environment.h
+	<map>
+	<memory>
+	<string>
+	"crbase/base_export.h"
+	"crbase/strings/string_piece.h"
+	"crbase/compiler/build_config.h"
+
+1753412116 source:f:\code\mini_chromium\src\crbase\message_loop\win\message_pump_win.cc
+	"crbase/message_loop/win/message_pump_win.h"
+	<math.h>
+	<stdint.h>
+	<limits>
+	"crbase/utils/debug/alias.h"
+	"crbase/functional/bind.h"
+	"crbase/functional/callback.h"
+	"crbase/memory/ptr_util.h"
+	"crbase/strings/stringprintf.h"
+	"crbase/win/current_module.h"
+	"crbase/win/wrapped_window_proc.h"
+
+1753433218 f:\code\mini_chromium\src\\crbase\message_loop\message_loop_current.h
+	"crbase/base_export.h"
+	"crbase/logging/logging.h"
+	"crbase/memory/ref_counted.h"
+	"crbase/utils/pending_task.h"
+	"crbase/message_loop/message_pump_for_io.h"
+	"crbase/message_loop/message_pump_for_ui.h"
+	"crbase/threading/task/single_thread_task_runner.h"
+	"crbase/compiler/build_config.h"
+
+1753453049 f:\code\mini_chromium\src\\crbase\message_loop\message_pump_for_io.h
+	"crbase/compiler/build_config.h"
+	"crbase/message_loop/win/message_pump_win.h"
+	"crbase/message_loop/posix/message_pump_libevent.h"
+
+1753453057 f:\code\mini_chromium\src\\crbase\message_loop\message_pump_for_ui.h
+	"crbase/compiler/build_config.h"
+	"crbase/message_loop/win/message_pump_win.h"
+	"crbase/message_loop/message_pump.h"
+	"crbase/message_loop/posix/message_pump_libevent.h"
+
+1753430669 f:\code\mini_chromium\src\\crbase\message_loop\pending_task_queue.h
+	"crbase/utils/pending_task.h"
+	"crbase/threading/checker/sequence_checker.h"
+
+1753433178 f:\code\mini_chromium\src\\crbase\containers\stack.h
+	<stack>
+	"crbase/containers/circular_deque.h"
+
+1753454521 f:\code\mini_chromium\src\\crbase\containers\circular_deque.h
+	<algorithm>
+	<cstddef>
+	<iterator>
+	<type_traits>
+	<utility>
+	"crbase/logging/logging.h"
+	"crbase/containers/vector_buffer.h"
+	"crbase/stl_util.h"
+	"crbase/utils/template/template_util.h"
+
+1753432759 f:\code\mini_chromium\src\\crbase\containers\vector_buffer.h
+	<stdlib.h>
+	<string.h>
+	<type_traits>
+	<utility>
+	"crbase/containers/util.h"
+	"crbase/logging/logging.h"
+	"crbase/numerics/checked_math.h"
+
+1753432781 f:\code\mini_chromium\src\\crbase\containers\util.h
+	<stdint.h>
+
+1753433503 f:\code\mini_chromium\src\\crbase\threading\internal\sequence_local_storage_map.h
+	"crbase/base_export.h"
+	"crbase/containers/flat_map.h"
+
+1753434013 f:\code\mini_chromium\src\\crbase\containers\flat_map.h
+	<utility>
+	"crbase/containers/flat_tree.h"
+	"crbase/logging/logging.h"
+
+1753433936 f:\code\mini_chromium\src\\crbase\containers\flat_tree.h
+	<algorithm>
+	<iterator>
+	<vector>
+
+1753435468 source:f:\code\mini_chromium\src\crbase\message_loop\message_loop_current.cc
+	"crbase/message_loop/message_loop_current.h"
+	"crbase/functional/bind.h"
+	"crbase/message_loop/message_loop.h"
+	"crbase/message_loop/message_pump_for_io.h"
+	"crbase/message_loop/message_pump_for_ui.h"
+	"crbase/memory/no_destructor.h"
+	"crbase/threading/thread_local.h"
+
+1753431478 f:\code\mini_chromium\src\\crbase\message_loop\sequenced_task_source.h
+	"crbase/functional/callback.h"
+	"crbase/utils/pending_task.h"
+	"crbase/time/time.h"
+
+1753436051 source:f:\code\mini_chromium\src\crbase\message_loop\pending_task_queue.cc
+	"crbase/message_loop/pending_task_queue.h"
+	<utility>
+	"crbase/logging/logging.h"
+	"crbase/compiler/build_config.h"
+
+1753435203 f:\code\mini_chromium\src\\crbase\functional\callback_helpers.h
+	<utility>
+	"crbase/atomic/atomicops.h"
+	"crbase/functional/bind.h"
+	"crbase/functional/callback.h"
+	"crbase/memory/ptr_util.h"
+	"crbase/compiler/compiler_specific.h"
+
+1753433566 source:f:\code\mini_chromium\src\crbase\threading\internal\sequence_local_storage_map.cc
+	"crbase/threading/internal/sequence_local_storage_map.h"
+	<utility>
+	"crbase/memory/lazy_instance.h"
+	"crbase/logging/logging.h"
+	"crbase/threading/thread_local.h"
+
+1753422033 f:\code\mini_chromium\src\\crbase\stl_util.h
+	"crbase/utils/template/class_method_detector.h"
+
+1753452456 f:\code\mini_chromium\src\\crbase\files\posix\file_descriptor.h
+	"crbase/files/file.h"
+	"crbase/files/scoped_file.h"
+
+1753435232 source:f:\code\mini_chromium\src\crbase\functional\callback_helpers.cc
+	"crbase/functional/callback_helpers.h"
+

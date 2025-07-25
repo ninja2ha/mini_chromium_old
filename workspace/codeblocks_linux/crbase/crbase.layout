@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release_x64" />
+	<File name="../../../src/crbase/third_party/libevent/linux/event-config.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="237" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/epoll.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1513" topLine="13" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/evutil.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1512" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/nspr/prtime.cc" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14266" topLine="455" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/logging/logging_internal_posix.cc" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="719" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/log.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1877" topLine="29" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/files/file_path.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="16586" topLine="317" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/files/file_path.cc" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10441" topLine="282" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/strings/strcat.cc" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/threading/thread.cc" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11015" topLine="268" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/BUILD.gn" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1704" topLine="38" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/event-config.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="633" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/event.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1517" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/message_loop/posix/watchable_io_message_pump.cc" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/http.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23833" topLine="963" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/logging/logging_internal_posix.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="421" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/poll.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1576" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/evbuffer.c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/nspr/prtime.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2653" topLine="47" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/rand_util_posix.cc" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="7" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/linux/config.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="219" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/message_loop/message_loop.cc" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15654" topLine="408" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/files/posix/file_descriptor_watcher.cc" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6367" topLine="146" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/message_loop/message_pump_for_ui.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="846" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/threading/platform_thread_posix.cc" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="954" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/files/scoped_file.cc" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="428" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/select.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1578" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/main.cc" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6573" topLine="150" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/time/time.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="32956" topLine="812" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/synchronization/waitable_event_posix.cc" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="473" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/evdns.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="28346" topLine="964" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/strlcpy.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1759" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/at_exit.cc" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2482" topLine="57" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/strings/string_util.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23244" topLine="476" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/signal.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1578" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/synchronization/lock_impl_posix.cc" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1965" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/files/file_util_posix.cc" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="35541" topLine="1041" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/auto_reset.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1254" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/files/file_util.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1053" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/utils/pending_task.cc" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1347" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/time/time_now_posix.cc" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3294" topLine="66" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/compiler/build_config.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2394" topLine="145" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/event-internal.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1592" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/min_heap.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2803" topLine="35" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/buffer.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1519" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/files/file_posix.cc" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10600" topLine="319" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/logging/logging.cc" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13526" topLine="415" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/files/file_path_constants.cc" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="941" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/message_loop/message_loop.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="16146" topLine="357" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/system/cpu_info.cc" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8491" topLine="207" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/logging/logging.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="16806" topLine="346" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/third_party/libevent/config.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/message_loop/message_pump_for_io.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="645" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../../../src/crbase/strings/string_split_internal.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2648" topLine="53" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release_x64" />
+	<File name="..\..\..\src\crbase\guid.cc" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3312" topLine="130" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\containers\span.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="318" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\win\com\scoped_com_initializer.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1404" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\threading\checker\sequence_checker_impl.cc" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2879" topLine="47" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\guid.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="139" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\utils\scoped_generic.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="66" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\functional\callback_list.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1432" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\win\message_window.cc" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4352" topLine="105" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\memory\ptr_util.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1665" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\strings\string_number_conversions_internal.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8846" topLine="253" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\memory\ref_counted.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12117" topLine="350" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\utils\scoped_clear_last_error.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1327" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\environment.cc" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3711" topLine="78" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\win\wrapped_window_proc.cc" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1561" topLine="24" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\strings\string_piece.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4691" topLine="107" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\threading\thread_local_storage_win.cc" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1835" topLine="38" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\at_exit.cc" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\main.cc" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6139" topLine="157" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\message_loop\message_loop.cc" open="1" top="1" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12490" topLine="316" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\win\win_util.cc" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1269" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\files\file_util_win.cc" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="36568" topLine="962" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\win\wrapped_window_proc.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1525" topLine="26" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\win\scoped_handle.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="420" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\threading\platform_thread_win.cc" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2732" topLine="66" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\src\crbase\system\cpu_info.cc" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4103" topLine="118" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

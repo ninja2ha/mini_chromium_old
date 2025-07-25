@@ -1,0 +1,50 @@
+// Copyright (c) 2012 Ninja2ha. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+[crbase/logging] : WIN | MAC | LINUX | OPENBSD | FREEBSD
+=> ./49.0.2623.112/base/logging.h|cc
+
+[crbase/memory] : WIN | MAC | LINUX | OPENBSD | FREEBSD
+no_destructor => ./81.0.4044.156/base/no_destructor.h
+ref_counted   => ./61.0.3163.141/base/memory/ref_counted.h|cc
+weak_ptr      => ./61.0.3163.141/base/memory/weak_ptr.h|cc
+ptr_util      => ./61.0.3163.141/base/memory/ptr_util.h
+
+[crbase/containers] : WIN | MAC | LINUX | OPENBSD | FREEBSD
+span     => ./65.0.3325.230/base/containers/span.h
+optional => ./61.0.3163.141/base/optional.h
+
+[crbase/atomic] : WIN | MAC | LINUX | OPENBSD | FREEBSD
+=> ./91.0.4472.169/base/*
+
+[crbase/functional] : WIN | MAC | LINUX | OPENBSD | FREEBSD
+cancelable_callback.h => ./91.0.4472.169/base/cancelable_callback.h
+=> ./61.0.3163.141/base/*
+
+[crbase/time] : WIN | MAC | LINUX | OPENBSD | FREEBSD
+=> ./61.0.3163.141/base/time/*
+
+[crbase/system] : WIN | MAC | LINUX | OPENBSD | FREEBSD
+cpu_info    => ./81.0.4044.156/base/cpu.h|cc
+
+[crbase/strings] : WIN | MAC | LINUX | OPENBSD | FREEBSD
+=> ./91.0.4472.169/base/strings/*
+
+[crbase/numerics] : WIN | MAC | LINUX | OPENBSD | FREEBSD
+=> ./61.0.3163.141/base/numerics/*
+
+[crbase/synchronization] : WIN | MAC | LINUX | OPENBSD | FREEBSD
+=> ./61.0.3163.141/base/synchronization/*
+
+[crbase/files] : WIN | MAC | LINUX | OPENBSD | FREEBSD
+=> ./91.0.4472.169/base/files/*
+
+[crbase/threading] : WIN | MAC | LINUX | OPENBSD | FREEBSD
+=> ./60.0.3112.118/base/threading/*
+platform_thread=> ./55.0.2883.105/base/threading/platform_thread.h|cc
+threading/task=> ./52.0.2743.120/*
+thread=>  ./71.0.3578.141/BASE/threading/thread.h|cc
+
+[crbase/message_loop] : WIN | LINUX | OPENBSD | FREEBSD
+=> ./71.0.3578.141/message_loop*
